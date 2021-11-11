@@ -1,5 +1,7 @@
 # MongoDB-Guardium Logstash Filter plugin
 
+**Notice:** This plug-in code now lives in [IBM/universal-connectors](https://github.com/IBM/universal-connectors), where you can find other filter and input plugins for IBM Guardium Data Protection and Guardium Insights. 
+
 This is a [Logstash](https://github.com/elastic/logstash) filter plugin for [Guardium universal connector][KC-UC-main], a feature in IBM Security Guardium. 
 
 This filter plugin parses Logstash events from a MongoDB audit log and transforms them into a Guardium Record object, which Guardium universal connector then inserts into Guardium. Potentially, this allows Guardium to monitor activity from any data source or service. 
